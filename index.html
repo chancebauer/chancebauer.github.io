@@ -1,30 +1,78 @@
-<!DOCTYPE html>
 <html>
-<head>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-img {
-  max-width: 100%;
-  height: auto;
-}
- div {
-  height: 100vh;
+body {font-family: 'Poppins', sans-serif;}
+
+.navbar {
   width: 100%;
+  background-color: #000;
+  overflow: auto;
 }
-</style>
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #353535;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+            padding: 0;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+            padding: 10;
+        }
+    </style>
 </head>
 <body>
-<img src="IMG_0126.jpeg" alt="IMG_0126.jpeg" width="1366" height="2049">
-<img src="IMG_0221.jpeg" alt="IMG_0221.jpeg" width="1365" height="2047">
-<img src="IMG_0332.jpeg" alt="IMG_0332.jpeg" width="1537" height="2320">
-<img src="IMG_0010.jpeg" alt="IMG_0010.jpeg" width="2320" height="1537">
-<img src="IMG_0139.jpeg" alt="IMG_0139.jpeg" width="2304" height="1536">
-<img src="DSC_3818.jpeg" alt="DSC_3818.jpeg" width="5592" height="3720">
-<img src="DSC_0021.jpeg" alt="DSC_0021.jpeg" width="3712" height="5568">
-<img src="DSC_0024.jpeg" alt="DSC_0024.jpeg" width="3712" height="5568">
-<img src="IMG_0038.jpeg" alt="IMG_0038.jpeg" width="1537" height="2320">
-<img src="IMG_0324.jpeg" alt="IMG_0324.jpeg" width="2320" height="1537">
-<img src="IMG_0383.jpeg" alt="IMG_0383.jpeg" width="2304" height="1536">
-<img src="DSC_0028.jpeg" alt="DSC_0028.jpeg" width="3621" height="5432">
-<img src="DSC_0030.jpeg" alt="DSC_0030.jpeg" width="5568" height="3712">
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i></a>
+</div>
+<div class="center-fit"></div>
+<div class="center-fit"><h1>Chance Bauer</h1></div>
+<div class="center-fit"></div>
+<div class="imgbox">
+<img src="IMG_0126.jpeg" alt="IMG_0126.jpeg" class="center-fit">
+<img src="IMG_0221.jpeg" alt="IMG_0221.jpeg" class="center-fit">
+<img src="IMG_0332.jpeg" alt="IMG_0332.jpeg" class="center-fit">
+<img src="IMG_0010.jpeg" alt="IMG_0010.jpeg" class="center-fit">
+<img src="IMG_0139.jpeg" alt="IMG_0139.jpeg" class="center-fit">
+<img src="DSC_3818.jpeg" alt="DSC_3818.jpeg" class="center-fit">
+<img src="DSC_0021.jpeg" alt="DSC_0021.jpeg" class="center-fit">
+<img src="DSC_0024.jpeg" alt="DSC_0024.jpeg" class="center-fit">
+<img src="IMG_0038.jpeg" alt="IMG_0038.jpeg" class="center-fit">
+<img src="IMG_0324.jpeg" alt="IMG_0324.jpeg" class="center-fit">
+<img src="IMG_0383.jpeg" alt="IMG_0383.jpeg" class="center-fit">
+<img src="DSC_0028.jpeg" alt="DSC_0028.jpeg" class="center-fit">
+<img src="DSC_0030.jpeg" alt="DSC_0030.jpeg" class="center-fit">
+</div>
 </body>
 </html>
