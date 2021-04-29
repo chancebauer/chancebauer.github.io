@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-img {
-  max-width: 100%;
-  height: auto;
+body {font-family: 'Poppins', sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #000;
+  overflow: auto;
 }
-</style>
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #353535;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+            padding: 0;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+            padding: 10;
+        }
+    </style>
 </head>
 <body>
-<img src="IMG_1016.png" alt="IMG_1016.png" width="1125" height="2436">
-<img src="IMG_1222.webp" alt="IMG_1222.webp" width="2560" height="1440">
-<img src="IMG_1226.jpeg" alt="IMG_1226.jpeg" width="5760" height="3840">
-<img src="IMG_1386.jpeg" alt="IMG_1386.jpeg" width="1241" height="2688">
-<img src="IMG_1387.jpeg" alt="IMG_1387.jpeg" width="2324" height="4147">
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i></a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i></a>
+</div>
+<div class="center-fit"></div>
+<div class="center-fit"><h1>Chance Bauer</h1></div>
+<div class="center-fit"></div>
+<div class="imgbox">
+<img src="Images/IMG_1016.png" alt="IMG_1016.png" class="center-fit">
+<img src="Images/IMG_1222.webp" alt="IMG_1222.webp" class="center-fit">
+<img src="Images/IMG_1226.jpeg" alt="IMG_1226.jpeg" class="center-fit">
+<img src="Images/IMG_1386.jpeg" alt="IMG_1386.jpeg" class="center-fit">
+<img src="Images/IMG_1387.jpeg" alt="IMG_1387.jpeg" class="center-fit">
+</div>
 </body>
 </html>
+
