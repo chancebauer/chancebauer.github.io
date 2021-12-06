@@ -5,7 +5,7 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-JVC616BEJX"
 
 # UI configs
-title: "Photography by Chance Bauer"
+title: "CZ CLOTHING"
 subtitle: "See the world through my eyes!"
 author: "Chance Bauer"
 header:
@@ -13,8 +13,8 @@ header:
  subtitle: "by Chance Bauer"
 footer:
  name: "Hey there, my name is Chance"
- bio: "Reno, NV / all photos original work"
- github: " <a href=\"https://www.buymeacoffee.com/chancebauer\">buymeabeer</a>;)"
+ bio: ""
+ github: " "
 web_design: "KW"
 social_urls:
   instagram: "https://www.instagram.com"
